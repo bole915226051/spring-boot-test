@@ -26,7 +26,7 @@ public class UserController {
 
     @RequestMapping("/testTwo")
     public String testTwo() {
-        return "出现分支问题";
+        return "出现分支问题.";
     }
 
 }
