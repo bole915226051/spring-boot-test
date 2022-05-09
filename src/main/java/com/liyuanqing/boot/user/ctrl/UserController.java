@@ -23,4 +23,10 @@ public class UserController {
         return "第一个入口";
     }
 
+
+    @RequestMapping("/testTwo")
+    public String testTwo() {
+        return "出现分支问题";
+    }
+
 }
